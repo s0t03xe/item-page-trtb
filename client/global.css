@@ -1,0 +1,221 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Walmart "Everyday Sans UI" — loaded from the licensed Builder.io asset CDN */
+@font-face {
+  font-family: "Everyday Sans UI";
+  src: url("https://cdn.builder.io/o/assets%2F02297b1ff48d4a2f8e4d9ed415c47ecf%2F0ba10371534e44eca1bef9776b066342?alt=media&token=03c452f4-ad60-459f-8bc1-f34943f03638&apiKey=02297b1ff48d4a2f8e4d9ed415c47ecf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Everyday Sans UI";
+  src: url("https://cdn.builder.io/o/assets%2F02297b1ff48d4a2f8e4d9ed415c47ecf%2F527123a1342e4b71ad4093fe51ca221e?alt=media&token=4e99d359-6abd-41ab-aaf1-068194b12421&apiKey=02297b1ff48d4a2f8e4d9ed415c47ecf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Everyday Sans UI";
+  src: url("https://cdn.builder.io/o/assets%2F02297b1ff48d4a2f8e4d9ed415c47ecf%2F03a92ac3aa0a4848b44f94e2dab69c5b?alt=media&token=5e91a62a-f1b6-4166-ac88-87fca0aa7d0e&apiKey=02297b1ff48d4a2f8e4d9ed415c47ecf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Everyday Sans UI";
+  src: url("https://cdn.builder.io/o/assets%2F02297b1ff48d4a2f8e4d9ed415c47ecf%2Fa05f8ed35f5d45f18e62d76e654f4439?alt=media&token=169488dd-669c-48ec-aac4-6178752e84b8&apiKey=02297b1ff48d4a2f8e4d9ed415c47ecf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Everyday Sans UI";
+  src: url("https://cdn.builder.io/o/assets%2F02297b1ff48d4a2f8e4d9ed415c47ecf%2Fd4b15663a47c42ed88117af25bdd6a03?alt=media&token=2c9bcdd1-d02d-4eaa-ae25-3fd3e3e1444d&apiKey=02297b1ff48d4a2f8e4d9ed415c47ecf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Everyday Sans UI";
+  src: url("https://cdn.builder.io/o/assets%2F02297b1ff48d4a2f8e4d9ed415c47ecf%2Fa534dfa270944edea9f6bb33d4779ee1?alt=media&token=ea8eaa3b-a13d-4f8c-a0b7-142e9c3e11ab&apiKey=02297b1ff48d4a2f8e4d9ed415c47ecf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Everyday Sans UI";
+  src: url("https://cdn.builder.io/o/assets%2F02297b1ff48d4a2f8e4d9ed415c47ecf%2Ffd24bfc9a4a747259521c58bee44028c?alt=media&token=10c7c15b-8648-4112-8535-fa786b8392d6&apiKey=02297b1ff48d4a2f8e4d9ed415c47ecf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Everyday Sans UI";
+  src: url("https://cdn.builder.io/o/assets%2F02297b1ff48d4a2f8e4d9ed415c47ecf%2Ff4a2288366ed4e17964b24c5d6da39cc?alt=media&token=f1177488-82f1-4778-b1fb-c6f6f8c8921a&apiKey=02297b1ff48d4a2f8e4d9ed415c47ecf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Everyday Sans UI";
+  src: url("https://cdn.builder.io/o/assets%2F02297b1ff48d4a2f8e4d9ed415c47ecf%2Fba2ede35dd194515958d3be926534ff5?alt=media&token=ddd5d608-9805-48fd-b368-7d6b71fd4da2&apiKey=02297b1ff48d4a2f8e4d9ed415c47ecf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Everyday Sans UI";
+  src: url("https://cdn.builder.io/o/assets%2F02297b1ff48d4a2f8e4d9ed415c47ecf%2F499e50c280d94547921c6031844fb504?alt=media&token=5c631b4e-9e1d-4205-ae5f-da76132e67b3&apiKey=02297b1ff48d4a2f8e4d9ed415c47ecf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Everyday Sans UI";
+  src: url("https://cdn.builder.io/o/assets%2F02297b1ff48d4a2f8e4d9ed415c47ecf%2F701c4cda8aca4aa7a9e5f4e53e90648d?alt=media&token=431a573e-f600-4165-8472-c3c5809d29f9&apiKey=02297b1ff48d4a2f8e4d9ed415c47ecf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Everyday Sans UI";
+  src: url("https://cdn.builder.io/o/assets%2F02297b1ff48d4a2f8e4d9ed415c47ecf%2F709270a6fc374ed88b74bd9f979a9931?alt=media&token=2bf7ebf5-b97a-4356-bf14-8fff389e4376&apiKey=02297b1ff48d4a2f8e4d9ed415c47ecf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@layer base {
+  /**
+   * Tailwind CSS theme
+   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
+   * A different format will require also updating the theme in tailwind.config.ts.
+  */
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Walmart Living Design (LD) tokens — used sparingly alongside the
+       walmart.* Tailwind palette. Hex values mirror the Figma LD :root. */
+    --ld-fill-brand: #0053e2;
+    --ld-text-brand: #0053e2;
+    --ld-spark: #ffc220;
+    --ld-text-default: #2e2f32;
+    --ld-base-subtle: #74767c;
+    --ld-warning-max: #662b0d;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    overflow-anchor: none;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family:
+      "Everyday Sans UI",
+      system-ui,
+      -apple-system,
+      sans-serif;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+}
